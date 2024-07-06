@@ -16,10 +16,12 @@ namespace nanoFramework.Networking.Thread
         /// Connected via a native radio which is part of SOC.
         /// </summary>
         Native,
+
         /// <summary>
         /// Connected via a UART port.
         /// </summary>
         Uart,
+
         /// <summary>
         /// Connected via a SPI bus.
         /// </summary>

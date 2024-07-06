@@ -24,7 +24,7 @@ namespace nanoFramework.Networking.Thread
         /// Used to flags properties in use.
         /// </summary>
         [Flags]
-        enum componentInUseFlags
+        private enum componentInUseFlags
         {
             None = 0,
             channel = 1,
@@ -45,7 +45,7 @@ namespace nanoFramework.Networking.Thread
         }
 
         /// <summary>
-        /// Get or Set the Thread Network Key.
+        /// Get or set the Thread Network Key.
         /// Must be a byte[8].
         /// </summary>
         /// <remarks>
@@ -61,6 +61,7 @@ namespace nanoFramework.Networking.Thread
                 {
                     throw new ArgumentException();
                 }
+
                 _networkKey = value;
                 _inUseFlags |= componentInUseFlags.networkKey;
             }

@@ -41,7 +41,11 @@
   </ItemGroup>
   <Import Project="$(NanoFrameworkProjectSystemPath)NFProjectSystem.props" Condition="Exists('$(NanoFrameworkProjectSystemPath)NFProjectSystem.props')" />
   <ItemGroup>
+    <Compile Include="OpenThreadConsoleOutputAvailableArgs.cs" />
     <Compile Include="OpenThreadEventListener.cs" />
+    <Compile Include="OpenThreadJoinerStartCompleteEventArgs.cs" />
+    <Compile Include="OpenThreadRoleChangeEventArgs.cs" />
+    <Compile Include="OpenThreadStateChangeEventArgs.cs" />
     <Compile Include="ThreadDeviceRole.cs" />
     <Compile Include="OpenThread.cs" />
     <Compile Include="OpenThreadDataset.cs" />

@@ -13,8 +13,8 @@ document language: [English](README.md) | [简体中文](README.zh-cn.md)
 |:-|---|---|
 | nanoFramework.Networking.Thread | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Networking.Thread/_apis/build/status/nanoFramework.Networking.Thread?repoName=nanoframework%2FnanoFramework.Networking.Thread&branchName=main)](https://dev.azure.com/nanoframework/nanoFramework.Networking.Thread/_build/latest?definitionId=85&repoName=nanoframework%2FnanoFramework.Networking.Thread&branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Networking.Thread.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Networking.Thread/) |
 
-
 # nanoFramework.Networking.Thread
+
  .NET nanoFramework library for working with OpenThread networking. 
  
  The OpenThread network is based on IPV6 and requires a firmware which has IPV6 and Thread enabled.
@@ -38,21 +38,20 @@ document language: [English](README.md) | [简体中文](README.zh-cn.md)
 
  This can be one of the types.
 	
-	- Router
-	- End device
-	- Sleepy end device
+- Router
+- End device
+- Sleepy end device
 
 The **Router** and **End device** are for a powered devices. 
 The **End device** will stay in the **child** role and won't ever be promoted to a router.
 The **Router** type will start with the child role and be promoted to the **router** or **leader** roles as required.
 
-The **Sleepy end device** are for battery operated devices and don't  stay connected to 
-the mesh network to save on battery. It will regularly poll its connected router for any messages. Routers connected 
+The **Sleepy end device** are for battery operated devices and don't stay connected to
+the mesh network to save on battery. It will regularly poll its connected router for any messages. Routers connected
 to a sleepy end device will store and forward messages. 
 
 The devices can take on a number of roles as already mentioned. 
 These are child, Router or Leader. 
-
 
 ### Devices with a built-in 802.15.4 radio
 
@@ -75,7 +74,6 @@ This code creates the stack using the network processor connected by UART on dev
 ```c#
 OpenThread ot = OpenThread.CreateThreadWithUartRadio(ThreadDeviceType.Router, 1);
 ```    
-
 
 #### Connected via a SPI port.**
 
@@ -118,7 +116,6 @@ If not it will wait about 2 minutes and create a new network using credentials i
 Monitor the state change events to know when the device has attached to the mesh network.
 See later section on events raised by the OpenThread class.
 
-
 ## Joining a existing network using the commissioner.
  
  To attach a device to an existing network where the network credentials are unknown. 
@@ -157,6 +154,7 @@ ot.OnConsoleOutputAvailable += Ot_OnConsoleOutputAvailable;
 ```
 
 ### OnStatusChanged
+
 This event is fired when the state of the Thread stack changes. 
 The main states that need to be monitored are the Detached and Attached events.
 There will also be events for network interface up/down, an IPV6 address has been assigned and when the stack has been started or stopped.
@@ -181,6 +179,7 @@ private static void Ot_OnStatusChanged(OpenThread sender, OpenThreadStateChangeE
 ```
 
 ### OnRoleChanged
+
 This event is fired when the role of the device changes. 
 
 The role can be one of the following:
@@ -192,7 +191,6 @@ The role can be one of the following:
 | Child | The device is currently a child, connected to a router. |
 | Router | The device is a router and has 0 or more child devices. |
 | Leader | The device is a router that has been promoted to leader. |
-
 
 ### OnConsoleOutputAvailable  
 
@@ -234,7 +232,6 @@ For examples on using sockets for communication see the Thread sockets samples
 As the OpenThread is based on an IP networking it also supports communication via TCP/IP. All the 
 normal methods of communicating with TCP/IP will work. 
 
-
 ## OpenThread CLI interface.
 
 The OpenThread library has a large number of different APIs.  
@@ -255,6 +252,7 @@ This will send a command to the CLI and wait for all strings returned until a 'd
 These strings will be returned directly by the command excluding the 'done' message. 
 
 CLI command to return all the IPV6 addresses assigned to the interface.
+
 ```c#
 string[] results = ot.CommandLineInputAndWaitResponse("ipaddr");
 ```

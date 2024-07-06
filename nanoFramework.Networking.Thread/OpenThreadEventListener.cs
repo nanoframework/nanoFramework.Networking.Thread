@@ -19,52 +19,6 @@ namespace nanoFramework.Networking.Thread
         JoinerComplete
     };
 
-    /// <summary>
-    /// This class represents the event arguments for OnStatusChanged.
-    /// </summary>
-    public class OpenThreadStateChangeEventArgs : BaseEvent
-    {
-        /// <summary>
-        /// Current state of OpenThread stack.
-        /// </summary>
-        public int currentState;
-    }
-
-    /// <summary>
-    /// This class represents the event arguments for OnRoleChanged.
-    /// </summary>
-    public class OpenThreadRoleChangeEventArgs : BaseEvent
-    {
-        /// <summary>
-        /// The previous thread device role before current change.
-        /// </summary>
-        public ThreadDeviceRole previousRole;
-
-        /// <summary>
-        /// Current role of device.
-        /// </summary>
-        public ThreadDeviceRole currentRole;
-    }
-
-    /// <summary>
-    /// Event arguments for the OnConsoleOutputAvailable Event.
-    /// </summary>
-    public class OpenThreadConsoleOutputAvailableArgs : BaseEvent
-    {
-        /// <summary>
-        /// Currently available console lines. 0 or more strings.
-        /// </summary>
-        public string[] consoleLines;
-    }
-
-    internal class OpenThreadJoinerStartCompleteEventArgs : BaseEvent
-    {
-        /// <summary>
-        /// Joiner start error or 0
-        /// </summary>
-        public int error;
-    }
-
     internal class OpenThreadEventListener : IEventProcessor, IEventListener
     {
         // Reference to current open thread object for passing events.
