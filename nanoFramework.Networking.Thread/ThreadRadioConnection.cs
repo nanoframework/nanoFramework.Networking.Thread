@@ -8,7 +8,7 @@ namespace nanoFramework.Networking.Thread
 {
     /// <summary>
     /// Thread Radio connection type.
-    /// How the THread radio is connected to this device.
+    /// How the Thread radio is connected to this device.
     /// </summary>
     public enum RadioConnection
     {
