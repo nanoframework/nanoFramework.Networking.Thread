@@ -25,11 +25,11 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="nanoFramework.MagicBit\bin\Release\nanoFramework.Networking.Thread.dll" target="lib\nanoFramework.Networking.Thread.dll" />
-    <file src="nanoFramework.MagicBit\bin\Release\nanoFramework.Networking.Thread.pdb" target="lib\nanoFramework.Networking.Thread.pdb" />
-    <file src="nanoFramework.MagicBit\bin\Release\nanoFramework.Networking.Thread.pdbx" target="lib\nanoFramework.Networking.Thread.pdbx" />
-    <file src="nanoFramework.MagicBit\bin\Release\nanoFramework.Networking.Thread.pe" target="lib\nanoFramework.Networking.Thread.pe" />
-    <file src="nanoFramework.MagicBit\bin\Release\nanoFramework.Networking.Thread.xml" target="lib\nanoFramework.Networking.Thread.xml" />
+    <file src="nanoFramework.Networking.Thread\bin\Release\nanoFramework.Networking.Thread.dll" target="lib\nanoFramework.Networking.Thread.dll" />
+    <file src="nanoFramework.Networking.Thread\bin\Release\nanoFramework.Networking.Thread.pdb" target="lib\nanoFramework.Networking.Thread.pdb" />
+    <file src="nanoFramework.Networking.Thread\bin\Release\nanoFramework.Networking.Thread.pdbx" target="lib\nanoFramework.Networking.Thread.pdbx" />
+    <file src="nanoFramework.Networking.Thread\bin\Release\nanoFramework.Networking.Thread.pe" target="lib\nanoFramework.Networking.Thread.pe" />
+    <file src="nanoFramework.Networking.Thread\bin\Release\nanoFramework.Networking.Thread.xml" target="lib\nanoFramework.Networking.Thread.xml" />
     <file src="assets\readme.txt" target="" />
     <file src="README.md" target="docs\" />
     <file src="assets\nf-logo.png" target="images" />
