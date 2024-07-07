@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETnanoFramework,Version=v1.0": {
+      "nanoFramework.CoreLibrary": {
+        "type": "Direct",
+        "requested": "[1.15.5, 1.15.5]",
+        "resolved": "1.15.5",
+        "contentHash": "u2+GvAp1uxLrGdILACAZy+EVKOs28EQ52j8Lz7599egXZ3GBGejjnR2ofhjMQwzrJLlgtyrsx8nSLngDfJNsAg=="
+      },
+      "nanoFramework.TestFramework": {
+        "type": "Direct",
+        "requested": "[2.1.107, 2.1.107]",
+        "resolved": "2.1.107",
+        "contentHash": "6pLzZwKdAsFoLaeP9iRivJaCs8AbaoX8wvB4oLH0+CBBQK209mfnkqqUzsL9sGwJIM9/bKoq6AMGmMZzI4iXww=="
+      }
+    }
+  }
+}

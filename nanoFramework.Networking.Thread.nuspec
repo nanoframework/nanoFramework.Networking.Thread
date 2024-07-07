@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>nanoFramework.Networking.Thread</id>
+    <version>$version$</version>
+    <title>nanoFramework.Networking.Thread</title>
+    <authors>nanoframework</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <releaseNotes>
+    </releaseNotes>
+    <readme>docs\README.md</readme>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/nanoframework/nanoFramework.Networking.Thread</projectUrl>
+    <icon>images\nf-logo.png</icon>
+    <repository type="git" url="https://github.com/nanoframework/nanoFramework.Networking.Thread" commit="$commit$" />
+    <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
+    <description>This package includes nanoFramework.Networking.Thread, a board package library for MagicBit in .NET nanoFramework C# projects.</description>
+    <tags>nanoFramework C# csharp netmf netnf nanoframework MagicBit</tags>
+    <dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="1.15.5" />
+      <dependency id="nanoFramework.System.Collections" version="1.5.31" />
+      <dependency id="nanoFramework.System.Net" version="1.10.79" />
+      <dependency id="nanoFramework.System.Math" version="1.5.43" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="nanoFramework.Networking.Thread\bin\Release\nanoFramework.Networking.Thread.dll" target="lib\nanoFramework.Networking.Thread.dll" />
+    <file src="nanoFramework.Networking.Thread\bin\Release\nanoFramework.Networking.Thread.pdb" target="lib\nanoFramework.Networking.Thread.pdb" />
+    <file src="nanoFramework.Networking.Thread\bin\Release\nanoFramework.Networking.Thread.pdbx" target="lib\nanoFramework.Networking.Thread.pdbx" />
+    <file src="nanoFramework.Networking.Thread\bin\Release\nanoFramework.Networking.Thread.pe" target="lib\nanoFramework.Networking.Thread.pe" />
+    <file src="nanoFramework.Networking.Thread\bin\Release\nanoFramework.Networking.Thread.xml" target="lib\nanoFramework.Networking.Thread.xml" />
+    <file src="assets\readme.txt" target="" />
+    <file src="README.md" target="docs\" />
+    <file src="assets\nf-logo.png" target="images" />
+    <file src="LICENSE.md" target="" />
+  </files>
+</package>
