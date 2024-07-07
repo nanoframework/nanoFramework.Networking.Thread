@@ -19,12 +19,8 @@
     <tags>nanoFramework C# csharp netmf netnf nanoframework MagicBit</tags>
     <dependencies>
       <dependency id="nanoFramework.CoreLibrary" version="1.15.5" />
-      <dependency id="nanoFramework.Runtime.Events" version="1.11.18" />
       <dependency id="nanoFramework.System.Collections" version="1.5.31" />
-      <dependency id="nanoFramework.System.IO.Streams" version="1.1.59" />
       <dependency id="nanoFramework.System.Net" version="1.10.79" />
-      <dependency id="nanoFramework.System.Text" version="1.2.54" />
-      <dependency id="nanoFramework.System.Threading" version="1.1.32" />
       <dependency id="nanoFramework.System.Math" version="1.5.43" />
     </dependencies>
   </metadata>
