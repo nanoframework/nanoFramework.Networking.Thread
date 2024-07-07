@@ -7,7 +7,7 @@ using nanoFramework.Runtime.Events;
 
 namespace nanoFramework.Networking.Thread
 {
-    // <summary>
+    /// <summary>
     /// Event arguments for the OnConsoleOutputAvailable Event.
     /// </summary>
     public class OpenThreadConsoleOutputAvailableArgs : BaseEvent
