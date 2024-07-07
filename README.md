@@ -11,7 +11,7 @@ document language: [English](README.md) | [简体中文](README.zh-cn.md)
 
 | Component | Build Status | NuGet Package |
 |:-|---|---|
-| nanoFramework.Networking.Thread | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Networking.Thread/_apis/build/status/nanoFramework.Networking.Thread?repoName=nanoframework%2FnanoFramework.Networking.Thread&branchName=main)](https://dev.azure.com/nanoframework/nanoFramework.Networking.Thread/_build/latest?definitionId=85&repoName=nanoframework%2FnanoFramework.Networking.Thread&branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Networking.Thread.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Networking.Thread/) |
+| nanoFramework.Networking.Thread | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Networking.Thread/_apis/build/status%2Fnanoframework.nanoFramework.Networking.Thread?repoName=nanoframework%2FnanoFramework.Networking.Thread&branchName=main)](https://dev.azure.com/nanoframework/nanoFramework.Networking.Thread/_build/latest?definitionId=109&repoName=nanoframework%2FnanoFramework.Networking.Thread&branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Networking.Thread.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Networking.Thread/) |
 
 # nanoFramework.Networking.Thread
 
