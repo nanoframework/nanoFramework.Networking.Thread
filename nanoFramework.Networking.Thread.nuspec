@@ -15,8 +15,8 @@
     <icon>images\nf-logo.png</icon>
     <repository type="git" url="https://github.com/nanoframework/nanoFramework.Networking.Thread" commit="$commit$" />
     <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
-    <description>This package includes nanoFramework.Networking.Thread, a board package library for MagicBit in .NET nanoFramework C# projects.</description>
-    <tags>nanoFramework C# csharp netmf netnf nanoframework MagicBit</tags>
+    <description>This package includes the nanoFramework.Networking.Thread assembly for .NET nanoFramework C# projects running on targets supporting OpenThread.</description>
+    <tags>nanoFramework C# csharp netmf netnf nanoframework OpenThread</tags>
     <dependencies>
       <dependency id="nanoFramework.CoreLibrary" version="1.15.5" />
       <dependency id="nanoFramework.System.Collections" version="1.5.31" />
