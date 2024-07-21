@@ -187,6 +187,7 @@ namespace nanoFramework.Networking.Thread
             if (!_started)
             {
                 NativeStartThread();
+                _started = true;
             }
             else
             {
