@@ -19,6 +19,6 @@ namespace nanoFramework.Networking.Thread
         /// <summary>
         /// Joiner start error or 0 if successful.
         /// </summary>
-        public int error { get => _error; set => value = _error; }
+        public int error { get => _error; set => _error = value; }
     }
 }

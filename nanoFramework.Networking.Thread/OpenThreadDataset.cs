@@ -11,6 +11,7 @@ namespace nanoFramework.Networking.Thread
     /// <summary>
     /// Represents a OpenThread Dataset.
     /// </summary>
+    [Serializable]
     public class OpenThreadDataset
     {
         private UInt16 _channel;
