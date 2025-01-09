@@ -20,7 +20,7 @@
     <dependencies>
       <dependency id="nanoFramework.CoreLibrary" version="1.15.5" />
       <dependency id="nanoFramework.System.Collections" version="1.5.45" />
-      <dependency id="nanoFramework.System.Net" version="1.11.1" />
+      <dependency id="nanoFramework.System.Net" version="1.11.15" />
       <dependency id="nanoFramework.System.Math" version="1.5.43" />
     </dependencies>
   </metadata>
