@@ -37,7 +37,7 @@
         }
     ],
     "sort": "ASC",
-    "template": "${{CHANGELOG}}\n\n**Full Changelog:** ${{RELEASE_DIFF}}\n\n<h4>Install from nuget.org</h4>\nThe following NuGet package is available from this release:\n\n:package: [nanoFramework.Networking.Thread](https://www.nuget.org/packages/nanoFramework.Networking.Thread/)",
+    "template": "${{CHANGELOG}}\n\n**Full Changelog:** ${{RELEASE_DIFF}}\n\nThe following NuGet package is available from this release:\n\n:package: [nanoFramework.Networking.Thread](https://www.nuget.org/packages/nanoFramework.Networking.Thread/)",
     "pr_template": "* ${{TITLE}} by @${{AUTHOR}} in #${{NUMBER}}",
     "empty_template": "- no changes",
     "max_tags_to_fetch": 200,
