@@ -18,10 +18,10 @@
     <description>This package includes the nanoFramework.Networking.Thread assembly for .NET nanoFramework C# projects running on targets supporting OpenThread.</description>
     <tags>nanoFramework C# csharp netmf netnf nanoframework OpenThread</tags>
     <dependencies>
-      <dependency id="nanoFramework.CoreLibrary" version="1.15.5" />
-      <dependency id="nanoFramework.System.Collections" version="1.5.45" />
-      <dependency id="nanoFramework.System.Net" version="1.11.17" />
-      <dependency id="nanoFramework.System.Math" version="1.5.43" />
+      <dependency id="nanoFramework.CoreLibrary" version="1.16.1" />
+      <dependency id="nanoFramework.System.Collections" version="1.5.56" />
+      <dependency id="nanoFramework.System.Net" version="1.11.23" />
+      <dependency id="nanoFramework.System.Math" version="1.5.86" />
     </dependencies>
   </metadata>
   <files>
