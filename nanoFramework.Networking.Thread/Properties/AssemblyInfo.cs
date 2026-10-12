@@ -9,8 +9,3 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCompany("nanoFramework Contributors")]
 [assembly: AssemblyProduct("nanoFramework.Networking.Thread")]
 [assembly: AssemblyCopyright("Copyright (c) .NET Foundation and Contributors")]
-
-////////////////////////////////////////////////////////////////
-// update this whenever the native assembly signature changes //
-[assembly: AssemblyNativeVersion("200.0.0.0")]
-////////////////////////////////////////////////////////////////
