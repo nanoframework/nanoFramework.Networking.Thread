@@ -15,11 +15,11 @@
     <icon>images\nf-logo.png</icon>
     <repository type="git" url="https://github.com/nanoframework/nanoFramework.Networking.Thread" commit="$commit$" />
     <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
-    <description>This package includes the nanoFramework.Networking.Thread assembly for .NET nanoFramework C# projects running on targets supporting OpenThread.</description>
-    <tags>nanoFramework C# csharp netmf netnf nanoframework OpenThread</tags>
+    <description>This package includes the nanoFramework.Networking.Thread assembly for .NET nanoFramework C# projects running on targets supporting OpenThread. This package requires a target with nanoFramework.Networking.Thread native contract hash $nativeContractHash$.</description>
+    <tags>nanoFramework C# csharp netmf netnf nanoframework OpenThread nfnc-$nativeContractHash$</tags>
     <dependencies>
       <group targetFramework=".NETnanoFramework1.0">
-        <dependency id="nanoFramework.CoreLibrary" version="2.0.0-preview.52" />
+        <dependency id="nanoFramework.CoreLibrary" version="2.0.0-preview.63" />
         <dependency id="nanoFramework.System.Collections" version="2.0.0-preview.15" />
         <dependency id="nanoFramework.System.Net" version="2.0.0-preview.39" />
         <dependency id="nanoFramework.System.Math" version="2.0.0-preview.19" />
